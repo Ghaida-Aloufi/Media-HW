@@ -1,0 +1,353 @@
+/* nav start
+ */
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contener {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .contener,
+  a {
+    font-size: 3vw;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+  }
+
+  .Reciipe-Resource {
+    background-color: #114387;
+
+
+    width: 100%;
+    height: 100px;
+  }
+
+  .Reciipe-Resource,
+  .style-h1-in-box {
+    color: white;
+    font-family: CopperPot, Helvetica, sans-serif;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .blue-icon,
+  .red-icon,
+  .yellow-icon {
+    width: 3vw;
+    height: 3vw;
+    border: 2px solid white;
+    border-radius: 50%;
+
+
+  }
+
+  .blue-icon {
+    background-color: #2ec5b6;
+
+  }
+
+  .red-icon {
+    background-color: red;
+  }
+
+  .yellow-icon {
+
+    background-color: #fbd557;
+  }
+
+  .blue-icon,
+  .style-h2-in-box {
+    color: white;
+    font-family: CopperPot, Helvetica, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+  }
+
+  .blue-icon,
+  .style-h3-in-box {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 200;
+  }
+
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+
+
+}
+
+.flex2 {
+
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  justify-content: space-evenly;
+  height: 55vw;
+  text-align: left;
+}
+
+.flex2,
+.style-h2-in-box2 {
+  font-family: SourceSansPro, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 3VW;
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vw;
+  justify-content: space-between;
+  background-color: #f5f6ea;
+}
+
+.flex4 {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.style-p-flex4 {
+  font-weight: 200;
+  font-size: 4vw;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+
+.flex5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+
+}
+
+.flex6 {
+  display: flex;
+}
+
+.people {
+
+  border: 10px solid transparent;
+  border-image: linear-gradient(118deg, #f9ac3a 0%, #eb4949 100%);
+  border-image-slice: 1;
+  border-width: 2vw;
+  border-style: solid;
+  width: 92vw;
+  display: flex;
+  flex-direction: column;
+  height: 320vw;
+  margin-left: 10px;
+}
+
+.flex7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85vw;
+  align-items: center;
+}
+
+.style-h1-homecook {
+  color: #fbd557;
+  width: 50vw;
+  text-align: center;
+  text-shadow: 4px 1px 5px black;
+  margin-top: 10px;
+
+}
+
+.style-p-homecook {
+  text-align: center;
+  width: 80vw;
+}
+
+.flex8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40vw;
+  align-items: center;
+}
+
+.style-h3-homecook {
+  font-family: CopperPot, Helvetica, sans-serif;
+
+}
+
+.style-h2-homecook {
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+
+.style-p-waffles {
+  font-family: SourceSansPro, Helvetica, sans-serif;
+  width: 90vw;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 100;
+}
+
+.flex9 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flex10 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.flex11 {
+  display: flex;
+  height: 50vw;
+  margin-left: 10px;
+  justify-content: center;
+  width: 80vw;
+  align-items: center;
+  text-align: center;
+
+}
+
+.flex12 {
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  height: 49vw;
+  align-items: center;
+
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  height: 32vw;
+  align-items: center;
+
+}
+
+.style-p {
+  color: #d54215;
+  font-family: SourceSansPro, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 3vw;
+  letter-spacing: 0.5vw;
+  margin-left: 10px;
+}
+
+.button-footer {
+  width: 50%;
+  height: 8vw;
+  border: 3px solid red;
+  text-align: center;
+}
+
+.flex12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 37vw;
+  justify-content: center;
+  justify-content: space-evenly;
+
+
+}
+
+.flex13 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 90%;
+
+
+}
+
+.flex14 {
+  display: flex;
+  flex-direction: column;
+  height: 35vw;
+  justify-content: center;
+  justify-content: space-evenly;
+
+}
+
+.flex15 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 35vw;
+
+}
+
+.flex16 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 43vw;
+
+}
+
+.background {
+  background-color: #f2f2f2;
+}
+
+.flex17 {
+  display: flex;
+  flex-direction: column;
+  height: 70vw;
+}
+
+.style-h2-footer {
+  font-weight: 100;
+  font-size: 4vw;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* nav end */
